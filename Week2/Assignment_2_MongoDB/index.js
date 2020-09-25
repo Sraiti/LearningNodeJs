@@ -10,7 +10,7 @@ app.use('/leaders', leaderRouter);
 app.use('/promotions', promotionRouter);
 
 
-mongoose.connect('mongodb+srv://Sraiti:cqDTcyC2DLqngzK@cluster0.u0vyr.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('MogoLINNK', {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   })
